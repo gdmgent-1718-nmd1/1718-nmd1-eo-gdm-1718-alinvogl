@@ -9,7 +9,6 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
-    background-image:url(../images/achtergrond.jpg);
     
 }
 
@@ -18,3 +17,13 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+body{
+    background-image:url(../images/achtergrond.jpg);
+    background-attachment: fixed;
+    color:#333;
+}
+
+img{
+    width: 350px;
+}
